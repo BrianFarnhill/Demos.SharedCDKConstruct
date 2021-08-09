@@ -1,6 +1,6 @@
 {
   "name": "@demos/sharedcdkconstruct",
-  "version": "1.0.6",
+  "version": "1.0.10",
   "main": "lib/construct.js",
   "types": "lib/construct.d.ts",
   "scripts": {
