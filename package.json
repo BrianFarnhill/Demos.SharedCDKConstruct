@@ -1,13 +1,13 @@
 {
   "name": "@demos/sharedcdkconstruct",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "main": "lib/construct.js",
   "types": "lib/construct.d.ts",
   "scripts": {
     "build": "tsc",
     "watch": "tsc -w",
     "test": "jest",
-    "login": "aws codeartifact login --tool npm --repository $REPO_NAME --domain $DOMAIN_NAME --domain-owner $OWNER_ACCOUNT"
+    "login": "aws codeartifact login --tool npm --repository $REPO_NAME --domain $DOMAIN_NAME --domain-owner $OWNER_ACCOUNT --namespace demos"
   },
   "devDependencies": {
     "@aws-cdk/assertions": "^1.119.0",

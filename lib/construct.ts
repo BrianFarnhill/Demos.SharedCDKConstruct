@@ -22,7 +22,7 @@ export class DemoFunction extends Construct {
     this.LambdaFunction = new lambda.Function(this, "DemoFunction", {
       code: lambda.Code.fromAsset(path.resolve(__dirname, "./lambda")),
       handler: "index.handler",
-      description: "An example function that comes from a shared CDK construct",
+      description: `An example function that comes from a shared CDK construct - last synthesised at ${Date.now().toString()}`,
       runtime: lambda.Runtime.NODEJS_14_X,
       timeout: props.timeout,
     });
