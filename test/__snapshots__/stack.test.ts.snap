@@ -5,7 +5,7 @@ Object {
   "Parameters": Object {
     "BootstrapVersion": Object {
       "Default": "/cdk-bootstrap/hnb659fds/version",
-      "Description": "Version of the CDK Bootstrap resources in this environment, automatically retrieved from SSM Parameter Store.",
+      "Description": "Version of the CDK Bootstrap resources in this environment, automatically retrieved from SSM Parameter Store. [cdk:skip]",
       "Type": "AWS::SSM::Parameter::Value<String>",
     },
   },
@@ -19,7 +19,7 @@ Object {
           "S3Bucket": Object {
             "Fn::Sub": "cdk-hnb659fds-assets-\${AWS::AccountId}-\${AWS::Region}",
           },
-          "S3Key": "674142b286ba6bc74af152f69b339c76c9a00a5f58b5265e9ab180f4c22f66f0.zip",
+          "S3Key": "ce2231704a2238026f48389afe81ed37f3d60c900ac13d12fcc3c71b171bfd4c.zip",
         },
         "Description": "An example function that comes from a shared CDK construct",
         "Handler": "index.handler",

@@ -16,8 +16,8 @@
     "@types/node": "10.17.27",
     "aws-cdk": "2.0.0-rc.30",
     "jest": "^27.3.1",
-    "ts-jest": "^26.2.0",
-    "ts-node": "^9.0.0",
+    "ts-jest": "^27.0.7",
+    "ts-node": "^10.4.0",
     "typescript": "~3.9.7"
   },
   "peerDependencies": {
